@@ -1,0 +1,91 @@
+/* ===== basic reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== body ===== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  background: #f4f7fb;
+  color: #222;
+}
+
+/* ===== header ===== */
+header {
+  background: #0b3d91;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* ===== nav ===== */
+nav {
+  background: #ffffff;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  color: #0b3d91;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  background: #0b3d91;
+  color: white;
+}
+
+/* ===== sections ===== */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #0b3d91;
+  font-size: 26px;
+}
+
+section p {
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+/* ===== images ===== */
+section img {
+  width: 100%;
+  max-width: 850px;
+  border-radius: 14px;
+  display: block;
+  margin: 10px auto 0;
+}
+
+/* ===== footer ===== */
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #0b3d91;
+  color: white;
+  margin-top: 40px;
+}
